@@ -7,10 +7,12 @@ import java.util.Properties;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.io.FileHandler;
 
 public class UtilityClass
@@ -64,6 +66,19 @@ public class UtilityClass
 			
 			File des= new File("D:\\eclipse\\Opensource-OrangeHRM\\FailedTestCasesSS\\HRMTestCaseId"+TestCaseId+".png");
 			FileHandler.copy(src, des);
+		}
+		
+		
+		
+		public static void SelectdropDown(WebDriver driver, WebElement element)
+		{
+			Actions act= new Actions(driver);
+			act.click(element);
+		
+			
+			
+			
+			
 		}
 		
 		//This method is used to take SceernShot of perticalur WebElement
