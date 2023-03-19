@@ -36,13 +36,32 @@ public class OpenHRMModule3Admin_Add_UserPage
 		PageFactory.initElements(driver, this);
 	}
 	
+	public String verifyOpenHRMModule3Admin_Add_UserPageAdminTitile()
+	{
+		String ActResult = AdminTitle.getText();
+		return ActResult;
+	}
+	
+	public String verifyOpenHRMModule3Admin_Add_UserPageAddUserLabel()
+	{
+		String actResult = AddUserLabel.getText();
+		return actResult;
+	}
+	
 	
 	
 	public WebElement SelectOpenHRMModule3Admin_Add_UserPageUserRole()
 	{
 		return SelectUserRole;
 	}
+	 
+	public String verifyOpenHRMModule3Admin_Add_UserPageEmplyoeeNameLabel()
+	{
+		String actResult = Employee_NameLabel.getText();
 	
+		return actResult;
+	}
+	 
 	public void inpOpenHRMModule3Admin_Add_UserPageEmpName(String empname)
 	{
 		enterEmployee_Name.sendKeys(empname);
@@ -62,30 +81,55 @@ public class OpenHRMModule3Admin_Add_UserPage
 		}
 	}
 
+	public String verifyOpenHRMModule3Admin_Add_UserPageStatusLabel()
+	{
+		String actResult = statusLabel.getText();
+		return actResult;
+	}
+	
 	public WebElement selectHRMModule3Admin_Add_UserPageStatus()
 	{
 		return selectstatus;
 	}
 	
-	
+	public String verifyOpenHRMModule3Admin_Add_UserPageUsernameLabel()
+	{
+		String actResult = userNameLabel.getText();
+		return actResult;
+	}
 	public void inpOpenHRMModule3Admin_Add_UserPageUserName(String UserName)
 	{
 		enterUserName.sendKeys(UserName);
 	}
 	
+	public String verifyOpenHRMModule3Admin_Add_UserPagePasswordLabel()
+	{
+		String actResult = passwrodLabel.getText();
+		return actResult;
+	}
 	public void inpOpenHRMModule3Admin_Add_UserPagePassword(String password)
 	{
 		enterPassword.sendKeys(password);
 	}
 	
+	public String verifyOpenHRMModule3Admin_Add_UserPageConfirmPasswordLabel()
+	{
+		String actResult = confirmPassLabel.getText();
+		return actResult;
+	}
 	public void inpOpenHRMModule3Admin_Add_UserPageConfirmPassword(String confirmPassword)
 	{
 		enterconfirmPassword.sendKeys(confirmPassword);
 	}
 	
-	public void clickOpenHRMModule3Admin_Add_UserPageSaveButton()
+	
+
+	public String clickOpenHRMModule3Admin_Add_UserPageSaveButton()
 	{
+		String actResult = saveButton.getText();
 		saveButton.click();
+		return actResult;
 	}
+	
 	
 }
