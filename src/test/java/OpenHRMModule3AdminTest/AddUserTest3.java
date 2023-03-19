@@ -2,7 +2,6 @@ package OpenHRMModule3AdminTest;
 
 import java.io.IOException;
 
-import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -18,7 +17,7 @@ import OpenHRMModule2HomePage.OpenHRMModule2HomePage;
 import OpenHRMModule3AdminPage.OpenHRMModule3AdminPage;
 import OpenHRMModule3AdminPage.OpenHRMModule3Admin_Add_UserPage;
 
-public class AddUserTest2 extends BaseClass
+public class AddUserTest3 extends BaseClass
 {
 	int TestCaseID;
 	OpenHRMModule1LoginPage login;
@@ -60,12 +59,13 @@ public class AddUserTest2 extends BaseClass
 		admin.clickOpenHRMModule3AdminPageAddButton();
 		soft.assertEquals(UtilityClass.getExcelData(6, 1), addUser.verifyOpenHRMModule3Admin_Add_UserPageAddUserLabel());
 		soft.assertEquals(UtilityClass.getExcelData(7, 1), addUser.VerifyOpenHRMModule3Admin_Add_UserPageUserRoleLabel());
+		addUser.updatedclickonUserRole();
+		Thread.sleep(2000);
+		addUser.updatedChooseRole(driver, UtilityClass.getExcelData(18, 1));
 		
 		
 		
 		
-		
-		UtilityClass.SelectOption(driver, 0, addUser.SelectOpenHRMModule3Admin_Add_UserPageUserRole());
 		
 		soft.assertEquals(UtilityClass.getExcelData(8, 1), addUser.verifyOpenHRMModule3Admin_Add_UserPageEmplyoeeNameLabel());
 		
@@ -75,7 +75,9 @@ public class AddUserTest2 extends BaseClass
 		addUser.chooseOpenHRMModule3Admin_Add_UserPageEmpName(driver, UtilityClass.getExcelData(9, 1));
 		soft.assertEquals(UtilityClass.getExcelData(10, 1), addUser.verifyOpenHRMModule3Admin_Add_UserPageStatusLabel());
 		
-		UtilityClass.SelectOption(driver, 0, addUser.selectHRMModule3Admin_Add_UserPageStatus());
+		addUser.UpdatedClickOnStatus();
+		Thread.sleep(2000);
+		addUser.updatedChooseStatus(driver, UtilityClass.getExcelData(19, 1));
 		
 		soft.assertEquals(UtilityClass.getExcelData(11, 1), addUser.verifyOpenHRMModule3Admin_Add_UserPageUsernameLabel());
 		addUser.inpOpenHRMModule3Admin_Add_UserPageUserName(UtilityClass.getExcelData(12, 1));
@@ -109,5 +111,3 @@ public class AddUserTest2 extends BaseClass
 	
 
 }
-
-

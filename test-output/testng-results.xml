@@ -2,39 +2,39 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-19T12:16:10 IST" name="Default suite" finished-at="2023-03-19T12:17:06 IST" duration-ms="56010">
+  <suite started-at="2023-03-19T14:42:04 IST" name="Default suite" finished-at="2023-03-19T14:42:36 IST" duration-ms="31837">
     <groups>
     </groups>
-    <test started-at="2023-03-19T12:16:10 IST" name="Default test" finished-at="2023-03-19T12:17:06 IST" duration-ms="56010">
-      <class name="OpenHRMModule3AdminTest.AddUser">
-        <test-method is-config="true" signature="openBroswer()[pri:0, instance:OpenHRMModule3AdminTest.AddUser@1151e434]" started-at="2023-03-19T12:16:10 IST" name="openBroswer" finished-at="2023-03-19T12:16:48 IST" duration-ms="38008" status="PASS">
+    <test started-at="2023-03-19T14:42:04 IST" name="Default test" finished-at="2023-03-19T14:42:36 IST" duration-ms="31837">
+      <class name="OpenHRMModule3AdminTest.AddUserTest3">
+        <test-method is-config="true" signature="openBroswer()[pri:0, instance:OpenHRMModule3AdminTest.AddUserTest3@1151e434]" started-at="2023-03-19T14:42:04 IST" name="openBroswer" finished-at="2023-03-19T14:42:13 IST" duration-ms="8991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBroswer -->
-        <test-method is-config="true" signature="loginIntoApp()[pri:0, instance:OpenHRMModule3AdminTest.AddUser@1151e434]" started-at="2023-03-19T12:16:48 IST" name="loginIntoApp" finished-at="2023-03-19T12:16:49 IST" duration-ms="1108" status="PASS">
+        <test-method is-config="true" signature="loginIntoApp()[pri:0, instance:OpenHRMModule3AdminTest.AddUserTest3@1151e434]" started-at="2023-03-19T14:42:13 IST" name="loginIntoApp" finished-at="2023-03-19T14:42:14 IST" duration-ms="969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginIntoApp -->
-        <test-method signature="verificationofloginmodule()[pri:0, instance:OpenHRMModule3AdminTest.AddUser@1151e434]" started-at="2023-03-19T12:16:49 IST" name="verificationofloginmodule" finished-at="2023-03-19T12:17:06 IST" duration-ms="16658" status="PASS">
+        <test-method signature="verificationofloginmodule()[pri:0, instance:OpenHRMModule3AdminTest.AddUserTest3@1151e434]" started-at="2023-03-19T14:42:14 IST" name="verificationofloginmodule" finished-at="2023-03-19T14:42:35 IST" duration-ms="21608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificationofloginmodule -->
-        <test-method is-config="true" signature="catptureSSoffailedTestCase(org.testng.ITestResult)[pri:0, instance:OpenHRMModule3AdminTest.AddUser@1151e434]" started-at="2023-03-19T12:17:06 IST" name="catptureSSoffailedTestCase" finished-at="2023-03-19T12:17:06 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="catptureSSoffailedTestCase(org.testng.ITestResult)[pri:0, instance:OpenHRMModule3AdminTest.AddUserTest3@1151e434]" started-at="2023-03-19T14:42:35 IST" name="catptureSSoffailedTestCase" finished-at="2023-03-19T14:42:35 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verificationofloginmodule status=SUCCESS method=AddUser.verificationofloginmodule()[pri:0, instance:OpenHRMModule3AdminTest.AddUser@1151e434] output={null}]]]>
+                <![CDATA[[TestResult name=verificationofloginmodule status=SUCCESS method=AddUserTest3.verificationofloginmodule()[pri:0, instance:OpenHRMModule3AdminTest.AddUserTest3@1151e434] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- catptureSSoffailedTestCase -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:OpenHRMModule3AdminTest.AddUser@1151e434]" started-at="2023-03-19T12:17:06 IST" name="closeBrowser" finished-at="2023-03-19T12:17:06 IST" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:OpenHRMModule3AdminTest.AddUserTest3@1151e434]" started-at="2023-03-19T14:42:35 IST" name="closeBrowser" finished-at="2023-03-19T14:42:36 IST" duration-ms="212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- OpenHRMModule3AdminTest.AddUser -->
+      </class> <!-- OpenHRMModule3AdminTest.AddUserTest3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

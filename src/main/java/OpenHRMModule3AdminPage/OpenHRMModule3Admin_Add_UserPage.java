@@ -48,7 +48,11 @@ public class OpenHRMModule3Admin_Add_UserPage
 		return actResult;
 	}
 	
-	
+	public String VerifyOpenHRMModule3Admin_Add_UserPageUserRoleLabel()
+	{
+		String actResult = User_RoleLabel.getText();
+		return actResult;
+	}
 	
 	public WebElement SelectOpenHRMModule3Admin_Add_UserPageUserRole()
 	{
@@ -129,6 +133,51 @@ public class OpenHRMModule3Admin_Add_UserPage
 		String actResult = saveButton.getText();
 		saveButton.click();
 		return actResult;
+	}
+	
+	
+	public void updatedclickonUserRole()
+	{
+		SelectUserRole.click();
+	}
+	
+	public void updatedChooseRole(WebDriver driver, String role )
+	{
+		List<WebElement> roles = driver.findElements(By.xpath("//div[@role='option']"));
+		
+		for(WebElement r: roles)
+		{
+			if(role.equals(r.getText()))
+			{
+					r.click();
+					break;
+			
+			}
+	}
+	
+	
+	}
+	
+	public void UpdatedClickOnStatus()
+	{
+		selectstatus.click();
+	}
+	
+	public void updatedChooseStatus(WebDriver driver, String status )
+	{
+		List<WebElement> statuses = driver.findElements(By.xpath("//div[@role='option']"));
+		
+		for(WebElement r: statuses)
+		{
+			if(status.equals(r.getText()))
+			{
+					r.click();
+					break;
+			
+			}
+	}
+	
+	
 	}
 	
 	

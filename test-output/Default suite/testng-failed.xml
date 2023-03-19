@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="OpenHRMModule3AdminTest.AddUser">
+      <class name="OpenHRMModule3AdminTest.AddUserTest2">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="verificationofloginmodule"/>
           <include name="loginIntoApp"/>
           <include name="openBroswer"/>
+          <include name="verificationofloginmodule"/>
+          <include name="closeBrowser"/>
           <include name="catptureSSoffailedTestCase"/>
         </methods>
-      </class> <!-- OpenHRMModule3AdminTest.AddUser -->
+      </class> <!-- OpenHRMModule3AdminTest.AddUserTest2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
