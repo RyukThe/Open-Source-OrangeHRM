@@ -26,7 +26,10 @@ public class OpenHRMModule3Admin_Add_UserPage
 	@FindBy(xpath = "//label[text()='Confirm Password']") private WebElement confirmPassLabel;
 	@FindBy(xpath = "(//input[@type='password'])[2]") private WebElement enterconfirmPassword;
 	@FindBy(xpath = "//button[text()=' Save ']") private WebElement saveButton;
-
+	@FindBy(xpath = "(//span[text()='Required'])[1]") private WebElement ermForUserRole;
+	@FindBy(xpath = "//span[text()='Invalid']") private WebElement ermForEmpName;
+	@FindBy(xpath = "(//span[text()='Required'])[2]") private WebElement ermForStatus;
+	@FindBy(xpath = "//span[text()='Should be at least 5 characters']") private WebElement ermForuserName;
 	
 	
 	
