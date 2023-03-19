@@ -30,9 +30,15 @@ public class OpenHRMModule3Admin_Add_UserPage
 	@FindBy(xpath = "//span[text()='Invalid']") private WebElement ermForEmpName;
 	@FindBy(xpath = "(//span[text()='Required'])[2]") private WebElement ermForStatus;
 	@FindBy(xpath = "//span[text()='Should be at least 5 characters']") private WebElement ermForuserName;
-	
-	
-	
+	@FindBy(xpath = "//span[text()='Very Weak ']") private WebElement ermVeryWeakpass;
+	@FindBy(xpath = "//span[text()='Should have at least 8 characters']") private WebElement ermForPassword;
+	@FindBy(xpath = "//span[text()='Passwords do not match']") private WebElement ermforcnfPassword;
+	@FindBy(xpath = "(//span[text()='Required'])[1]") private WebElement ermNodatapassessUserRole;
+	@FindBy(xpath = "(//span[text()='Required'])[2]") private WebElement ermNodatapassessEmpName;
+	@FindBy(xpath = "(//span[text()='Required'])[3]") private WebElement ermNodatapassessStatus;
+	@FindBy(xpath = "(//span[text()='Required'])[4]") private WebElement ermNodatapassessUserName;
+	@FindBy(xpath = "(//span[text()='Required'])[5]") private WebElement ermNodatapassessPassword;
+	@FindBy(xpath = "(//span[text()='Required'])[6]") private WebElement ermNodatapassessConfirmPassword;
 	
 	public OpenHRMModule3Admin_Add_UserPage(WebDriver driver)
 	{
@@ -84,6 +90,10 @@ public class OpenHRMModule3Admin_Add_UserPage
 			{
 				option.click();
 
+			}
+			else
+			{
+				option.click();
 			}
 		}
 	}
@@ -179,9 +189,82 @@ public class OpenHRMModule3Admin_Add_UserPage
 			
 			}
 	}
-	
-	
 	}
 	
+		
+		public String verifyErrorMessageOpenHRMModule3Admin_Add_UserPageForUseserRole()
+		{
+			String actResult = ermForUserRole.getText();
+					return actResult;
+		}
 	
+		
+		public String verifyErrorMessageOpenHRMModule3Admin_Add_UserPageForEmployeeName()
+		{
+			String actResult = ermForEmpName.getText();
+			return actResult;
+		}
+		
+		public String verifyErrorMessageOpenHRMModule3Admin_Add_UserPageForStatus()
+		{
+			String actResult=ermForStatus.getText();
+			return actResult;
+		}
+		
+		public String verifyErrorMessageOpenHRMModule3Admin_Add_UserPageForUserName()
+		{
+			String actResult=ermForuserName.getText();
+			return actResult;
+		}
+		
+		public String verifyErrorMessageOpenHRMModule3Admin_Add_UserPageForPassword()
+		{
+			String actResult=ermForPassword.getText();
+			return actResult;
+		}
+		
+		public String verifyErrorMessageOpenHRMModule3Admin_Add_UserPageForConfirmPass()
+		{
+			String actResult= ermforcnfPassword.getText();
+			return actResult;
+		}
+		
+		public String verifyErroMesageOpenHRMModule3Admin_Add_UserPageForNoDataPassesUserRole()
+		{
+			String actResult=ermNodatapassessUserRole.getText();
+			return actResult;
+		}
+		
+		public String verifyErroMesageOpenHRMModule3Admin_Add_UserPageForNoDataPassesempName()
+		{
+			String actResult= ermNodatapassessEmpName.getText();
+			return actResult;
+		}
+		
+		public String verifyErroMesageOpenHRMModule3Admin_Add_UserPageForNoDataPassesStatus()
+		{
+			String actResult = ermNodatapassessStatus.getText();
+			return actResult;
+			
+		}
+		
+		public String verifyErroMesageOpenHRMModule3Admin_Add_UserPageForNoDataPassesUserName()
+		{
+			String actResult= ermNodatapassessUserName.getText();
+			return actResult;
+		}
+		
+		public String verifyErroMesageOpenHRMModule3Admin_Add_UserPageForNoDataPassesPassword()
+		{
+			String actResult= ermNodatapassessPassword.getText();
+			return actResult;
+		}
+		
+		public String verifyErroMesageOpenHRMModule3Admin_Add_UserPageForNoDataPassesConfirmPassword()
+		{
+			String actResult= ermNodatapassessConfirmPassword.getText();
+			return actResult;
+			
+		}
+		
 }

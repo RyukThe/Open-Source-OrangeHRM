@@ -2,39 +2,39 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-19T14:42:04 IST" name="Default suite" finished-at="2023-03-19T14:42:36 IST" duration-ms="31837">
+  <suite started-at="2023-03-19T20:16:51 IST" name="Default suite" finished-at="2023-03-19T20:17:11 IST" duration-ms="20133">
     <groups>
     </groups>
-    <test started-at="2023-03-19T14:42:04 IST" name="Default test" finished-at="2023-03-19T14:42:36 IST" duration-ms="31837">
-      <class name="OpenHRMModule3AdminTest.AddUserTest3">
-        <test-method is-config="true" signature="openBroswer()[pri:0, instance:OpenHRMModule3AdminTest.AddUserTest3@1151e434]" started-at="2023-03-19T14:42:04 IST" name="openBroswer" finished-at="2023-03-19T14:42:13 IST" duration-ms="8991" status="PASS">
+    <test started-at="2023-03-19T20:16:51 IST" name="Default test" finished-at="2023-03-19T20:17:11 IST" duration-ms="20133">
+      <class name="OpenHRMModule3AdminTest.AddUserModule_Validate_ErrorMessage_InValidData">
+        <test-method is-config="true" signature="openBroswer()[pri:0, instance:OpenHRMModule3AdminTest.AddUserModule_Validate_ErrorMessage_InValidData@4c1909a3]" started-at="2023-03-19T20:16:51 IST" name="openBroswer" finished-at="2023-03-19T20:17:00 IST" duration-ms="9057" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBroswer -->
-        <test-method is-config="true" signature="loginIntoApp()[pri:0, instance:OpenHRMModule3AdminTest.AddUserTest3@1151e434]" started-at="2023-03-19T14:42:13 IST" name="loginIntoApp" finished-at="2023-03-19T14:42:14 IST" duration-ms="969" status="PASS">
+        <test-method is-config="true" signature="loginIntoApp()[pri:0, instance:OpenHRMModule3AdminTest.AddUserModule_Validate_ErrorMessage_InValidData@4c1909a3]" started-at="2023-03-19T20:17:00 IST" name="loginIntoApp" finished-at="2023-03-19T20:17:02 IST" duration-ms="2062" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginIntoApp -->
-        <test-method signature="verificationofloginmodule()[pri:0, instance:OpenHRMModule3AdminTest.AddUserTest3@1151e434]" started-at="2023-03-19T14:42:14 IST" name="verificationofloginmodule" finished-at="2023-03-19T14:42:35 IST" duration-ms="21608" status="PASS">
+        <test-method signature="verifyAllErrorMessageWhenNoDataPassesByUser()[pri:0, instance:OpenHRMModule3AdminTest.AddUserModule_Validate_ErrorMessage_InValidData@4c1909a3]" started-at="2023-03-19T20:17:02 IST" name="verifyAllErrorMessageWhenNoDataPassesByUser" finished-at="2023-03-19T20:17:11 IST" duration-ms="8787" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verificationofloginmodule -->
-        <test-method is-config="true" signature="catptureSSoffailedTestCase(org.testng.ITestResult)[pri:0, instance:OpenHRMModule3AdminTest.AddUserTest3@1151e434]" started-at="2023-03-19T14:42:35 IST" name="catptureSSoffailedTestCase" finished-at="2023-03-19T14:42:35 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- verifyAllErrorMessageWhenNoDataPassesByUser -->
+        <test-method is-config="true" signature="catptureSSoffailedTestCase(org.testng.ITestResult)[pri:0, instance:OpenHRMModule3AdminTest.AddUserModule_Validate_ErrorMessage_InValidData@4c1909a3]" started-at="2023-03-19T20:17:11 IST" name="catptureSSoffailedTestCase" finished-at="2023-03-19T20:17:11 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verificationofloginmodule status=SUCCESS method=AddUserTest3.verificationofloginmodule()[pri:0, instance:OpenHRMModule3AdminTest.AddUserTest3@1151e434] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAllErrorMessageWhenNoDataPassesByUser status=SUCCESS method=AddUserModule_Validate_ErrorMessage_InValidData.verifyAllErrorMessageWhenNoDataPassesByUser()[pri:0, instance:OpenHRMModule3AdminTest.AddUserModule_Validate_ErrorMessage_InValidData@4c1909a3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- catptureSSoffailedTestCase -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:OpenHRMModule3AdminTest.AddUserTest3@1151e434]" started-at="2023-03-19T14:42:35 IST" name="closeBrowser" finished-at="2023-03-19T14:42:36 IST" duration-ms="212" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:OpenHRMModule3AdminTest.AddUserModule_Validate_ErrorMessage_InValidData@4c1909a3]" started-at="2023-03-19T20:17:11 IST" name="closeBrowser" finished-at="2023-03-19T20:17:11 IST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- OpenHRMModule3AdminTest.AddUserTest3 -->
+      </class> <!-- OpenHRMModule3AdminTest.AddUserModule_Validate_ErrorMessage_InValidData -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
