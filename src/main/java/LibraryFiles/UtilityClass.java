@@ -41,7 +41,7 @@ public class UtilityClass
 			return TestData;
 		}
 		
-		//This method is used to fecth data from property file.
+		//This method is used to fetch data from property file.
 		//User Have to Pass String key As a input.
 		//Author: Saurav Kasture 
 		public static String getPropertyFileData(String key) throws IOException
@@ -70,16 +70,16 @@ public class UtilityClass
 		
 		
 		
-		public static void SelectdropDown(WebDriver driver, WebElement element)
+		public static void SelectOption(WebDriver driver, int option, WebElement Element)
 		{
-			Actions act= new Actions(driver);
-			act.click(element);
-		
-			
-			
-			
-			
-		}
+			Actions a1=new Actions(driver);
+			a1.click( Element).perform();
+			for(int i=0;i<=option;i++)
+			{
+				a1.sendKeys(Keys.ARROW_DOWN).perform();;
+				a1.sendKeys(Keys.ENTER).perform();
+				a1.sendKeys(Keys.ENTER).perform();
+			}
 		
 		//This method is used to take SceernShot of perticalur WebElement
 		//User Have to pass two inputs 1st webElement 2nd String Element Name
@@ -95,5 +95,6 @@ public class UtilityClass
 		
 		
 	}
+		}
 
 

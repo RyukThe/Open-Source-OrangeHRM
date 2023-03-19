@@ -49,7 +49,7 @@ public class AddUser extends BaseClass
 	@Test
 	public void verificationofloginmodule() throws InterruptedException, IOException
 	{
-		TestCaseID=3;
+		TestCaseID=4;
 		Thread.sleep(2000);
 		Assert.assertTrue(home.verifyOpenHRMModule2HomePageOrangeHRMBanner());
 		Assert.assertEquals(UtilityClass.getExcelData(1, 1), home.verifyOpenHRMModule2HomePageDashboardTitle());
@@ -58,10 +58,20 @@ public class AddUser extends BaseClass
 		Assert.assertEquals(UtilityClass.getExcelData(3, 1), admin.verifyOpenHRMModule3AdminPageTitleOfAdminPage());
 		admin.clickOpenHRMModule3AdminPageAddButton();
 		addUser.SelectOpenHRMModule3Admin_Add_UserPageUserRole();
-		Actions act= new Actions(driver);
-		
-		
+		UtilityClass.SelectOption(driver, 0, addUser.SelectOpenHRMModule3Admin_Add_UserPageUserRole());
+		addUser.inpOpenHRMModule3Admin_Add_UserPageEmpName(UtilityClass.getExcelData(9, 1));
 		Thread.sleep(2000);
+		addUser.chooseOpenHRMModule3Admin_Add_UserPageEmpName(driver, UtilityClass.getExcelData(9, 1));
+		UtilityClass.SelectOption(driver, 0, addUser.selectHRMModule3Admin_Add_UserPageStatus());
+		addUser.inpOpenHRMModule3Admin_Add_UserPageUserName(UtilityClass.getExcelData(12, 1));
+		addUser.inpOpenHRMModule3Admin_Add_UserPagePassword(UtilityClass.getExcelData(14, 1));
+		Thread.sleep(500);
+		addUser.inpOpenHRMModule3Admin_Add_UserPageConfirmPassword(UtilityClass.getExcelData(16, 1));
+		Thread.sleep(500);
+		addUser.clickOpenHRMModule3Admin_Add_UserPageSaveButton();
+		
+		Thread.sleep(5000);
+	
 	}
 	
 	@AfterMethod
