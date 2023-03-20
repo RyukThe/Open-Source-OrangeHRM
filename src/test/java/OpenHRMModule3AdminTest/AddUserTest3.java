@@ -31,10 +31,10 @@ public class AddUserTest3 extends BaseClass
 	{
 		
 		openBrowser();
-		login= new OpenHRMModule1LoginPage(driver);
-		home= new OpenHRMModule2HomePage(driver);
-		admin= new OpenHRMModule3AdminPage(driver);
-		addUser = new OpenHRMModule3Admin_Add_UserPage(driver);
+		login = new OpenHRMModule1LoginPage(driver);
+		home = new OpenHRMModule2HomePage(driver);
+		admin = new OpenHRMModule3AdminPage(driver);
+		addUser= new OpenHRMModule3Admin_Add_UserPage(driver);
 		soft= new SoftAssert();
 		
 	}

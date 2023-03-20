@@ -33,7 +33,7 @@ public class UtilityClass
 		
 		//This Method is used to Fetch data from excel sheet.
 		// User Have to Pass 3 Input 1st String Sheet Name, 2nd Row Index, 3rd Cell Index.
-		//Author: Saurav kasture
+		//Author: 	Saurav Kasture
 		public static String getExcelData(String sheetName,int rowIndex, int cellIndex) throws EncryptedDocumentException, IOException
 		{
 			FileInputStream file= new FileInputStream("D:\\eclipse\\Opensource-OrangeHRM\\TestData\\OpenHRM.xlsx");
@@ -43,7 +43,7 @@ public class UtilityClass
 		
 		//This method is used to fetch data from property file.
 		//User Have to Pass String key As a input.
-		//Author: Saurav Kasture 
+		//Author: Saurav Kasture
 		public static String getPropertyFileData(String key) throws IOException
 		{
 			FileInputStream file=new  FileInputStream("D:\\eclipse\\Opensource-OrangeHRM\\OrangeHRM.properties");
@@ -81,17 +81,16 @@ public class UtilityClass
 				a1.sendKeys(Keys.ENTER).perform();
 			}
 		
-		//This method is used to take SceernShot of perticalur WebElement
-		//User Have to pass two inputs 1st webElement 2nd String Element Name
-		//Author: Saurav Kasture
-	/*	public static void takeSSofElement( WebElement element, String ElementName) throws IOException
-		{
-			File src = element.getScreenshotAs(OutputType.FILE);
-			FileHandler.copy(src, new File("D:\\eclipse\\LivingLiquidz\\SSofPerticularWebElemnt\\"+ElementName+".png"));
-			
-		}
-		*/
-		
+			//This method is used to take SceernShot of perticalur WebElement
+			//User Have to pass two inputs 1st webElement 2nd String Element Name
+			//Author: Saurav Kasture
+		/*	public static void takeSSofElement( WebElement element, String ElementName) throws IOException
+			{
+				File src = element.getScreenshotAs(OutputType.FILE);
+				FileHandler.copy(src, new File("D:\\eclipse\\LivingLiquidz\\SSofPerticularWebElemnt\\"+ElementName+".png"));
+				
+			}
+			*/
 		
 		
 	}

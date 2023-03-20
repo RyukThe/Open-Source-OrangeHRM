@@ -32,10 +32,10 @@ public class AddUserValidateAllErrorMassagesWhenNoDataPasses extends BaseClass
 	{
 		
 		openBrowser();
-		login= new OpenHRMModule1LoginPage(driver);
-		home= new OpenHRMModule2HomePage(driver);
-		admin= new OpenHRMModule3AdminPage(driver);
-		adduser = new OpenHRMModule3Admin_Add_UserPage(driver);
+		login = new OpenHRMModule1LoginPage(driver);
+		home = new OpenHRMModule2HomePage(driver);
+		admin = new OpenHRMModule3AdminPage(driver);
+		adduser= new OpenHRMModule3Admin_Add_UserPage(driver);
 		soft= new SoftAssert();
 		
 	}

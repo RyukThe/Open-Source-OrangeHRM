@@ -15,6 +15,7 @@ import LibraryFiles.UtilityClass;
 import OpenHRMModule1LoginPage.OpenHRMModule1LoginPage;
 import OpenHRMModule2HomePage.OpenHRMModule2HomePage;
 import OpenHRMModule3AdminPage.OpenHRMModule3AdminPage;
+import OpenHRMModule3AdminPage.OpenHRMModule3Admin_Add_UserPage;
 
 public class OpenHRMModule3AdminTest extends BaseClass
 {
@@ -28,10 +29,10 @@ public class OpenHRMModule3AdminTest extends BaseClass
 	{
 		
 		openBrowser();
-		login= new OpenHRMModule1LoginPage(driver);
-		home= new OpenHRMModule2HomePage(driver);
-		admin= new OpenHRMModule3AdminPage(driver);
-		
+		login = new OpenHRMModule1LoginPage(driver);
+		home = new OpenHRMModule2HomePage(driver);
+		admin = new OpenHRMModule3AdminPage(driver);
+	
 	}
 	
 	@BeforeMethod
