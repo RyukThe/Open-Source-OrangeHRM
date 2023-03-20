@@ -48,8 +48,10 @@ public class OpenHRMModule3AdminTest extends BaseClass
 		Thread.sleep(2000);
 		Assert.assertTrue(home.verifyOpenHRMModule2HomePageOrangeHRMBanner());
 		Assert.assertEquals(UtilityClass.getExcelData(1, 1), home.verifyOpenHRMModule2HomePageDashboardTitle());
+		//click on admin button
 		Assert.assertEquals(UtilityClass.getExcelData(2, 1), home.clickOpenHRMModule2HomePageAdminButton());
 		Thread.sleep(2000);
+		//verify that user navigate on admin page 
 		Assert.assertEquals(UtilityClass.getExcelData(3, 1), admin.verifyOpenHRMModule3AdminPageTitleOfAdminPage());
 		Thread.sleep(2000);
 	}

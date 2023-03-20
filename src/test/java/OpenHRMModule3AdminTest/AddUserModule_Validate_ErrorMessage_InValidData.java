@@ -52,9 +52,11 @@ public class AddUserModule_Validate_ErrorMessage_InValidData extends BaseClass
 		Thread.sleep(2000);
 		soft.assertEquals(UtilityClass.getExcelData(3, 1), admin.verifyOpenHRMModule3AdminPageTitleOfAdminPage());
 		admin.clickOpenHRMModule3AdminPageAddButton();
-		
+		//verify label
 		soft.assertEquals(UtilityClass.getExcelData(6, 1), adduser.verifyOpenHRMModule3Admin_Add_UserPageAddUserLabel());
 		soft.assertEquals(UtilityClass.getExcelData(7, 1), adduser.VerifyOpenHRMModule3Admin_Add_UserPageUserRoleLabel());
+		
+		// invalid data
 		adduser.inpOpenHRMModule3Admin_Add_UserPageEmpName(UtilityClass.getExcelData("errorMsg", 1, 1));
 		adduser.chooseOpenHRMModule3Admin_Add_UserPageEmpName(driver,  UtilityClass.getExcelData("errorMsg", 1, 1));
 		
@@ -64,8 +66,9 @@ public class AddUserModule_Validate_ErrorMessage_InValidData extends BaseClass
 		adduser.inpOpenHRMModule3Admin_Add_UserPagePassword(UtilityClass.getExcelData("errorMsg", 1, 4));
 		
 		adduser.inpOpenHRMModule3Admin_Add_UserPageConfirmPassword(UtilityClass.getExcelData("errorMsg", 1, 5));
+		//click on save button
 		soft.assertEquals(UtilityClass.getExcelData(17, 1), adduser.clickOpenHRMModule3Admin_Add_UserPageSaveButton());
-		
+		// verify error messages 
 		soft.assertEquals(UtilityClass.getExcelData("errorMsg", 2, 0), adduser.verifyErrorMessageOpenHRMModule3Admin_Add_UserPageForUseserRole());
 		soft.assertEquals(UtilityClass.getExcelData("errorMsg", 2, 1), adduser.verifyErrorMessageOpenHRMModule3Admin_Add_UserPageForEmployeeName());
 		soft.assertEquals(UtilityClass.getExcelData("errorMsg", 2, 2), adduser.verifyErrorMessageOpenHRMModule3Admin_Add_UserPageForStatus());

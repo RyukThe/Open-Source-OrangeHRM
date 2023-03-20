@@ -54,39 +54,53 @@ public class AddUserTest3 extends BaseClass
 		soft.assertTrue(home.verifyOpenHRMModule2HomePageOrangeHRMBanner());
 		soft.assertEquals(UtilityClass.getExcelData(1, 1), home.verifyOpenHRMModule2HomePageDashboardTitle());
 		soft.assertEquals(UtilityClass.getExcelData(2, 1), home.clickOpenHRMModule2HomePageAdminButton());
+		
 		Thread.sleep(2000);
 		soft.assertEquals(UtilityClass.getExcelData(3, 1), admin.verifyOpenHRMModule3AdminPageTitleOfAdminPage());
+		//click on Add button
 		admin.clickOpenHRMModule3AdminPageAddButton();
+		// verify Add user label
 		soft.assertEquals(UtilityClass.getExcelData(6, 1), addUser.verifyOpenHRMModule3Admin_Add_UserPageAddUserLabel());
+		// verify user role Label
 		soft.assertEquals(UtilityClass.getExcelData(7, 1), addUser.VerifyOpenHRMModule3Admin_Add_UserPageUserRoleLabel());
-		addUser.updatedclickonUserRole();
+		//click on User Role
+		addUser.updatedclickonUserRole(); //
 		Thread.sleep(2000);
+		//select role as Admin
 		addUser.updatedChooseRole(driver, UtilityClass.getExcelData(18, 1));
 		
-		
-		
-		
-		
+		// verify Employee Name Label
 		soft.assertEquals(UtilityClass.getExcelData(8, 1), addUser.verifyOpenHRMModule3Admin_Add_UserPageEmplyoeeNameLabel());
-		
+		//enter user
 		addUser.inpOpenHRMModule3Admin_Add_UserPageEmpName(UtilityClass.getExcelData(9, 1));
 		Thread.sleep(2000);
-		
+		//select Employee name from list
 		addUser.chooseOpenHRMModule3Admin_Add_UserPageEmpName(driver, UtilityClass.getExcelData(9, 1));
+		//verify status label
 		soft.assertEquals(UtilityClass.getExcelData(10, 1), addUser.verifyOpenHRMModule3Admin_Add_UserPageStatusLabel());
-		
-		addUser.UpdatedClickOnStatus();
+		// click on status
+		addUser.UpdatedClickOnStatus();  
 		Thread.sleep(2000);
+		//select status
 		addUser.updatedChooseStatus(driver, UtilityClass.getExcelData(19, 1));
-		
+		// verify user name label
 		soft.assertEquals(UtilityClass.getExcelData(11, 1), addUser.verifyOpenHRMModule3Admin_Add_UserPageUsernameLabel());
+		//enter user name
 		addUser.inpOpenHRMModule3Admin_Add_UserPageUserName(UtilityClass.getExcelData(12, 1));
+		// verify password label
 		soft.assertEquals(UtilityClass.getExcelData(13, 1), addUser.verifyOpenHRMModule3Admin_Add_UserPagePasswordLabel());
+		// enter password 
 		addUser.inpOpenHRMModule3Admin_Add_UserPagePassword(UtilityClass.getExcelData(14, 1));
+		
 		Thread.sleep(500);
+		// verify confirm password 
 		soft.assertEquals(UtilityClass.getExcelData(15, 1), addUser.verifyOpenHRMModule3Admin_Add_UserPageConfirmPasswordLabel());
+	
+		// enter confirm password 
 		addUser.inpOpenHRMModule3Admin_Add_UserPageConfirmPassword(UtilityClass.getExcelData(16, 1));
 		Thread.sleep(500);
+		
+		//click on save button
 		soft.assertEquals(UtilityClass.getExcelData(17, 1), addUser.clickOpenHRMModule3Admin_Add_UserPageSaveButton());
 		
 		Thread.sleep(5000);

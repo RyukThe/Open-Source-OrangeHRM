@@ -52,9 +52,13 @@ public class AddUserValidateAllErrorMassagesWhenNoDataPasses extends BaseClass
 		Thread.sleep(2000);
 		soft.assertEquals(UtilityClass.getExcelData(3, 1), admin.verifyOpenHRMModule3AdminPageTitleOfAdminPage());
 		admin.clickOpenHRMModule3AdminPageAddButton();
+		//click on save button
 		soft.assertEquals(UtilityClass.getExcelData(17, 1), adduser.clickOpenHRMModule3Admin_Add_UserPageSaveButton());
+		//verify label
 		soft.assertEquals(UtilityClass.getExcelData(6, 1), adduser.verifyOpenHRMModule3Admin_Add_UserPageAddUserLabel());
 		soft.assertEquals(UtilityClass.getExcelData(7, 1), adduser.VerifyOpenHRMModule3Admin_Add_UserPageUserRoleLabel());
+		
+		//verify all error messages generated 
 		soft.assertEquals(UtilityClass.getExcelData("errorMsg", 0, 0), adduser.verifyErroMesageOpenHRMModule3Admin_Add_UserPageForNoDataPassesUserRole());
 		soft.assertEquals(UtilityClass.getExcelData("errorMsg", 0, 1), adduser.verifyErroMesageOpenHRMModule3Admin_Add_UserPageForNoDataPassesempName());
 		soft.assertEquals(UtilityClass.getExcelData("errorMsg", 0, 2), adduser.verifyErroMesageOpenHRMModule3Admin_Add_UserPageForNoDataPassesStatus());
