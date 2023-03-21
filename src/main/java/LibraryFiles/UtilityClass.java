@@ -3,6 +3,8 @@ package LibraryFiles;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
 
 import org.apache.poi.EncryptedDocumentException;
@@ -80,6 +82,10 @@ public class UtilityClass
 				a1.sendKeys(Keys.ENTER).perform();
 				a1.sendKeys(Keys.ENTER).perform();
 			}
+					
+			
+		}	
+		
 		
 			//This method is used to take SceernShot of perticalur WebElement
 			//User Have to pass two inputs 1st webElement 2nd String Element Name
@@ -94,6 +100,6 @@ public class UtilityClass
 		
 		
 	}
-		}
+		
 
 

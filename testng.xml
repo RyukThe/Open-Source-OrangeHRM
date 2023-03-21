@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRMSuite">
+	<listeners>
+		<listener class-name="LibraryFiles.ExtentReporterManger" />
+	</listeners>
+	<test thread-count="5" name="OrangeHRMTest">
+		<classes>
+
+			<class name="OpenHRMModule1LoginTest.OpenHRMModule1LoginTest" />
+			<!-- <class name="OpenHRMModule3AdminTest.OpenHRMModule3AdminTest"/> -->
+			<!-- <class name="OpenHRMModule2HomeTest.OpenHRMModule2HomeTest"/> -->
+			<!-- <class name="OpenHRMModule3AdminTest.AddUserTest2"/> -->
+			<!-- <class name="OpenHRMModule3AdminTest.AddUserTest3"/> -->
+			<!--<class name="OpenHRMModule3AdminTest.AddUserValidateAllErrorMassagesWhenNoDataPasses"/> -->
+			<!-- <class name="OpenHRMModule3AdminTest.AddUser"/> -->
+			<!-- <class name="OpenHRMModule3AdminTest.AddUserModule_Validate_ErrorMessage_InValidData"/> -->
+		</classes>
+	</test> <!-- OrangeHRMTest -->
+</suite> <!-- OrangeHRMSuite -->
