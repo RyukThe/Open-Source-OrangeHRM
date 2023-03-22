@@ -73,12 +73,7 @@ public class ExtentReporterManger  implements ITestListener // Listeners are use
 
 		extent.setSystemInfo("UserName", System.getProperty("user.name"));
 		extent.setSystemInfo("Java Version", System.getProperty("java.version"));
-		try {
-			extent.setSystemInfo("Application :", UtilityClass.getPropertyFileData("URL"));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
 		try {
 			extent.setSystemInfo("User Name ", UtilityClass.getPropertyFileData("username"));
 		} catch (IOException e) {
