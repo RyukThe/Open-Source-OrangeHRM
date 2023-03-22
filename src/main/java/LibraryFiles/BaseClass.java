@@ -7,6 +7,8 @@ import java.time.Duration;
 import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger; //use this 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -19,7 +21,7 @@ import org.openqa.selenium.io.FileHandler;
 public class BaseClass
 {
 	public ChromeOptions op;
-	
+	public Logger logger;
 	public static WebDriver driver;
 	
 	public void openBrowser() throws IOException
@@ -31,6 +33,8 @@ public class BaseClass
 		driver.manage().window().maximize();
 		driver.get(UtilityClass.getPropertyFileData("URL"));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		logger=  LogManager.getLogger(this.getClass());
+		logger.debug("debuggin.....");
 	}
 
 

@@ -22,12 +22,13 @@ public class OpenHRMModule1LoginTest extends BaseClass
 	OpenHRMModule1LoginPage login;
 	OpenHRMModule2HomePage home;
 	
-	@BeforeClass
+	@BeforeClass //use logger in Before class 
 	public void openBroswer() throws IOException
 	{
 		
 		openBrowser();
 		login= new OpenHRMModule1LoginPage(driver);
+		logger.info("******* Browser Open *********");
 		home= new OpenHRMModule2HomePage(driver);
 		
 	}
@@ -35,14 +36,17 @@ public class OpenHRMModule1LoginTest extends BaseClass
 	@Test
 	public void verificationofloginmodule() throws InterruptedException, IOException
 	{
+		logger.info("******* Test case Execution Started *******************");
 		TestCaseID=1;
 		login.inpOpenHRMModule1LoginPageUsername(UtilityClass.getPropertyFileData("username"));
+		logger.debug("***Debug*****");
 		login.inpOpenHRMModule1LoginPagePassword(UtilityClass.getPropertyFileData("password"));
+		logger.debug("***Debug*****");
 		login.clikOpenHRMModule1LoginPageLoginButton();
 		
 		Thread.sleep(2000);
 		Assert.assertTrue(home.verifyOpenHRMModule2HomePageOrangeHRMBanner());
-		
+		logger.debug("***Debuug*****");
 	}
 	
 	@AfterMethod
@@ -57,6 +61,8 @@ public class OpenHRMModule1LoginTest extends BaseClass
 	@AfterClass
 	public void closeBrowser()
 	{
+		logger.info("******* Test case Execution ended *******************");
+		logger.debug("***Debug*****");
 		driver.close();
 	}
 }
