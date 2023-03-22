@@ -6,9 +6,11 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -33,23 +35,63 @@ public class ExtentReporterManger  implements ITestListener // Listeners are use
 	
 	public void onTestStart(ITestResult result) // this method will execute only once before starting execution of test 
 	{
-		String timeStamp= new SimpleDateFormat("yyy.MM.dd.HH.mm.ss").format(new Date()); //creating report by using time because when we run test case every time then it will create new report for that run.(we can maintain history of reports)
-		reportName="Test-Report-"+timeStamp;
-		
-		sparkReporter= new ExtentSparkReporter("D:\\eclipse\\Opensource-OrangeHRM\\reports\\"+reportName); // specify location of report 
-		sparkReporter.config().setDocumentTitle("AutomationTestReport"); // Title Of report 
+		String timeStamp = new SimpleDateFormat("yyy.MM.dd.HH.mm.ss").format(new Date()); // creating report by using
+																							// time because when we run
+																							// test case every time then
+																							// it will create new report
+																							// for that run.(we can
+																							// maintain history of
+																							// reports)
+		reportName = "Test-Report-" + timeStamp;
+
+		sparkReporter = new ExtentSparkReporter("D:\\eclipse\\Opensource-OrangeHRM\\reports\\" + reportName); // specify
+																												// location
+																												// of
+																												// report
+		sparkReporter.config().setDocumentTitle("AutomationTestReport"); // Title Of report
 		sparkReporter.config().setReportName("OpenSource-OrangeHRM");
 		sparkReporter.config().setTheme(Theme.DARK);
-		
-		extent= new ExtentReports();
+
+		extent = new ExtentReports();
 		extent.attachReporter(sparkReporter);
-		extent.setSystemInfo("Application ", "Demo-OrangeHRM");
+		try {
+			extent.setSystemInfo("Application ", UtilityClass.getPropertyFileData("URL"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		extent.setSystemInfo("Operating System", System.getProperty("os.name"));
 		extent.setSystemInfo("User Name", System.getProperty("user.name"));
 		extent.setSystemInfo("Environment", "QA");
 		extent.setSystemInfo("user", "Saurav");
-		
-		
+		new BaseClass();
+		Capabilities cp = ((RemoteWebDriver)BaseClass.driver).getCapabilities();
+		extent.setSystemInfo("Browser", cp.getBrowserName());
+		extent.setSystemInfo("Browser version", cp.getBrowserVersion());
+		// System.getProperties().list(System.out); this will give all information about
+		// system like os version user name and java version
+
+		extent.setSystemInfo("UserName", System.getProperty("user.name"));
+		extent.setSystemInfo("Java Version", System.getProperty("java.version"));
+		try {
+			extent.setSystemInfo("Application :", UtilityClass.getPropertyFileData("URL"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			extent.setSystemInfo("User Name ", UtilityClass.getPropertyFileData("username"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		try {
+			extent.setSystemInfo("Password", UtilityClass.getPropertyFileData("password"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	public void onTestSuccess(ITestResult result ) 
