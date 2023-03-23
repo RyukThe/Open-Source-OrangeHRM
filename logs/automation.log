@@ -113,3 +113,6 @@
 09:21:58.920 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
 09:22:02.352 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
 09:22:07.559 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
+09:34:55.087 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
+09:34:55.113 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
+09:34:59.532 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************

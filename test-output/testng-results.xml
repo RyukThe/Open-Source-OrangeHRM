@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-22T14:33:32 IST" name="Default suite" finished-at="2023-03-22T14:34:01 IST" duration-ms="28889">
+  <suite started-at="2023-03-23T09:34:36 IST" name="Default suite" finished-at="2023-03-23T09:35:00 IST" duration-ms="23331">
     <groups>
     </groups>
-    <test started-at="2023-03-22T14:33:32 IST" name="Default test" finished-at="2023-03-22T14:34:01 IST" duration-ms="28889">
+    <test started-at="2023-03-23T09:34:36 IST" name="Default test" finished-at="2023-03-23T09:35:00 IST" duration-ms="23331">
       <class name="OpenHRMModule1LoginTest.OpenHRMModule1LoginTest">
-        <test-method is-config="true" signature="openBroswer()[pri:0, instance:OpenHRMModule1LoginTest.OpenHRMModule1LoginTest@4efac082]" started-at="2023-03-22T14:33:32 IST" name="openBroswer" finished-at="2023-03-22T14:33:56 IST" duration-ms="23643" status="PASS">
+        <test-method is-config="true" signature="openBroswer()[pri:0, instance:OpenHRMModule1LoginTest.OpenHRMModule1LoginTest@51c668e3]" started-at="2023-03-23T09:34:36 IST" name="openBroswer" finished-at="2023-03-23T09:34:55 IST" duration-ms="18120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBroswer -->
-        <test-method signature="verificationofloginmodule()[pri:0, instance:OpenHRMModule1LoginTest.OpenHRMModule1LoginTest@4efac082]" started-at="2023-03-22T14:33:56 IST" name="verificationofloginmodule" finished-at="2023-03-22T14:34:00 IST" duration-ms="4695" status="PASS">
+        <test-method signature="verificationofloginmodule()[pri:0, instance:OpenHRMModule1LoginTest.OpenHRMModule1LoginTest@51c668e3]" started-at="2023-03-23T09:34:55 IST" name="verificationofloginmodule" finished-at="2023-03-23T09:34:59 IST" duration-ms="4416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificationofloginmodule -->
-        <test-method is-config="true" signature="catptureSSoffailedTestCase(org.testng.ITestResult)[pri:0, instance:OpenHRMModule1LoginTest.OpenHRMModule1LoginTest@4efac082]" started-at="2023-03-22T14:34:00 IST" name="catptureSSoffailedTestCase" finished-at="2023-03-22T14:34:00 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="catptureSSoffailedTestCase(org.testng.ITestResult)[pri:0, instance:OpenHRMModule1LoginTest.OpenHRMModule1LoginTest@51c668e3]" started-at="2023-03-23T09:34:59 IST" name="catptureSSoffailedTestCase" finished-at="2023-03-23T09:34:59 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verificationofloginmodule status=SUCCESS method=OpenHRMModule1LoginTest.verificationofloginmodule()[pri:0, instance:OpenHRMModule1LoginTest.OpenHRMModule1LoginTest@4efac082] output={null}]]]>
+                <![CDATA[[TestResult name=verificationofloginmodule status=SUCCESS method=OpenHRMModule1LoginTest.verificationofloginmodule()[pri:0, instance:OpenHRMModule1LoginTest.OpenHRMModule1LoginTest@51c668e3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- catptureSSoffailedTestCase -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:OpenHRMModule1LoginTest.OpenHRMModule1LoginTest@4efac082]" started-at="2023-03-22T14:34:00 IST" name="closeBrowser" finished-at="2023-03-22T14:34:01 IST" duration-ms="489" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:OpenHRMModule1LoginTest.OpenHRMModule1LoginTest@51c668e3]" started-at="2023-03-23T09:34:59 IST" name="closeBrowser" finished-at="2023-03-23T09:35:00 IST" duration-ms="735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
