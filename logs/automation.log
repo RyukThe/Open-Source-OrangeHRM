@@ -1,121 +1,277 @@
-13:39:57.558 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
-13:39:57.601 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-13:39:57.602 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@63210c40
-13:39:57.641 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-13:39:57.641 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
-13:39:57.641 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
-13:39:57.641 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
-13:39:58.413 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-13:39:58.651 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xe5e53f72c6397013
-13:40:17.137 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
-13:40:17.158 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
-13:40:19.030 [main] DEBUG OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ***Debug*****
-13:40:19.332 [main] DEBUG OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ***Debug*****
-13:40:21.508 [main] DEBUG OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ***Debuug*****
-13:40:21.520 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
-13:40:21.521 [main] DEBUG OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ***Debug*****
-13:43:37.916 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
-13:43:37.950 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
-13:43:37.951 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
-13:43:37.961 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6aa648b9
-13:43:37.984 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
-13:43:37.985 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 16
-13:43:37.986 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-13:43:37.987 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-13:43:37.987 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
-13:43:37.988 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
-13:43:37.989 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
-13:43:37.990 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
-13:43:37.992 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2096442d
-13:43:37.994 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-13:43:37.994 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
-13:43:37.995 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 2113929216 bytes (maybe)
-13:43:37.996 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\daduk\AppData\Local\Temp (java.io.tmpdir)
-13:43:37.996 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-13:43:37.997 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
-13:43:37.998 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
-13:43:37.998 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-13:43:38.000 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
-13:43:38.001 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
-13:43:38.009 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
-13:43:38.034 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-13:43:38.034 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-13:43:38.337 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
-13:43:38.337 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-13:43:38.373 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
-13:43:38.387 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
-13:43:38.387 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
-13:43:38.464 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
-13:43:38.464 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
-13:43:38.464 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
-13:43:38.464 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
-13:43:38.464 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
-13:43:38.465 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
-13:43:38.465 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
-13:43:38.465 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-13:43:38.465 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
-13:43:38.465 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-13:43:38.465 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
-13:43:38.465 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-13:43:38.476 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
-13:43:38.476 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
-13:43:38.476 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-13:43:38.906 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 3648 (auto-detected)
-13:43:38.910 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
-13:43:38.910 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
-13:43:38.924 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-13:43:38.926 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-13:43:38.976 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 28:56:5a:ff:fe:a3:7a:09 (auto-detected)
-13:43:39.049 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
-13:43:39.049 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-13:43:39.050 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4330ef2e
-13:43:39.071 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-13:43:39.072 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
-13:43:39.072 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
-13:43:39.072 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
-13:43:39.935 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-13:43:40.201 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xa10d625cd98aefe5
-13:44:29.270 [main] DEBUG OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - debuggin.....
-13:44:29.303 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
-13:44:29.343 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
-13:44:33.315 [main] DEBUG OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ***Debug*****
-13:44:33.427 [main] DEBUG OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ***Debug*****
-13:44:35.606 [main] DEBUG OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ***Debuug*****
-13:44:35.613 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
-13:44:35.614 [main] DEBUG OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ***Debug*****
-13:46:52.175 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
-13:46:52.196 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
-13:47:04.090 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
-14:33:56.170 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
-14:33:56.194 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
-14:34:00.891 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
-14:38:39.015 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
-14:38:41.069 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
-14:38:45.643 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
-14:40:29.422 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
-14:40:29.789 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
-14:40:34.457 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
-15:24:15.595 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
-15:24:21.175 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
-15:24:26.630 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
-15:30:25.519 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
-15:30:31.898 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
-15:30:33.666 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
-20:11:34.399 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
-20:11:35.080 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
-20:11:39.637 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
-20:23:12.724 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
-20:23:12.975 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
-20:23:15.785 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
-20:29:14.523 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
-20:29:14.774 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
-20:29:19.085 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
-09:21:58.920 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
-09:22:02.352 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
-09:22:07.559 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
-09:34:55.087 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
-09:34:55.113 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
-09:34:59.532 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
-09:58:18.680 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
-09:58:21.794 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
-09:58:27.145 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
+14:54:54.464 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on User  Role ***************
+14:54:54.728 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** select  Role ***************
+14:54:54.929 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Employee Name entered ***************
+14:54:57.096 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************   Employee Name is Selected  ***************
+14:54:57.146 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Click on Status ***************
+14:54:57.392 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Status  Selected ***************
+14:54:57.584 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** User Name Entered ***************
+14:54:59.885 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Password Entered ***************
+14:55:00.250 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Confirm  Password Entered ***************
+14:55:07.398 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on Save button ***************
+15:01:04.838 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Browser Open***************
+15:01:04.883 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Login into Application***************
+15:01:07.735 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Test Case Execution Started***************
+15:01:12.430 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title Admin/management  Page ***************
+15:01:13.320 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify  text  and click on add button  ***************
+15:01:13.784 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title of Amin title ***************
+15:01:13.890 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify label of Add user ***************
+15:01:13.939 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on User  Role ***************
+15:01:14.184 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** select  Role ***************
+15:01:14.421 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Employee Name entered ***************
+15:01:16.557 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************   Employee Name is Selected  ***************
+15:01:16.623 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Click on Status ***************
+15:01:16.756 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Status  Selected ***************
+15:01:17.285 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** User Name Entered ***************
+15:01:19.582 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Password Entered ***************
+15:01:19.854 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Confirm  Password Entered ***************
+15:01:27.059 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on Save button ***************
+15:02:35.917 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Browser Open***************
+15:02:35.958 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Login into Application***************
+15:02:38.932 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Test Case Execution Started***************
+15:02:42.012 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title Admin/management  Page ***************
+15:02:42.621 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify  text  and click on add button  ***************
+15:02:43.025 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title of Amin title ***************
+15:02:43.151 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify label of Add user ***************
+15:02:43.248 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on User  Role ***************
+15:02:43.536 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** select  Role ***************
+15:02:43.749 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Employee Name entered ***************
+15:02:45.906 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************   Employee Name is Selected  ***************
+15:02:45.980 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Click on Status ***************
+15:02:46.215 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Status  Selected ***************
+15:02:46.447 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** User Name Entered ***************
+15:02:48.770 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Password Entered ***************
+15:02:49.080 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Confirm  Password Entered ***************
+15:02:56.318 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on Save button ***************
+15:06:07.309 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Browser Open***************
+15:06:07.352 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Login into Application***************
+15:06:10.611 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Test Case Execution Started***************
+15:06:13.311 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title Admin/management  Page ***************
+15:06:13.974 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify  text  and click on add button  ***************
+15:06:14.396 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title of Amin title ***************
+15:06:14.499 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify label of Add user ***************
+15:06:14.573 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on User  Role ***************
+15:06:14.780 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** select  Role ***************
+15:06:14.991 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Employee Name entered ***************
+15:06:17.134 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************   Employee Name is Selected  ***************
+15:06:17.183 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Click on Status ***************
+15:06:17.352 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Status  Selected ***************
+15:06:17.523 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** User Name Entered ***************
+15:06:19.876 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Password Entered ***************
+15:06:20.176 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Confirm  Password Entered ***************
+15:06:27.360 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on Save button ***************
+15:15:29.327 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Browser Open***************
+15:15:29.370 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Login into Application***************
+15:15:32.569 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Test Case Execution Started***************
+15:15:36.905 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title Admin/management  Page ***************
+15:15:37.593 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify  text  and click on add button  ***************
+15:15:37.973 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title of Amin title ***************
+15:15:38.047 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify label of Add user ***************
+15:15:38.102 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on User  Role ***************
+15:15:38.303 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** select  Role ***************
+15:15:38.489 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Employee Name entered ***************
+15:15:40.684 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************   Employee Name is Selected  ***************
+15:15:40.748 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Click on Status ***************
+15:15:40.919 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Status  Selected ***************
+15:15:41.081 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** User Name Entered ***************
+15:15:43.454 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Password Entered ***************
+15:15:43.692 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Confirm  Password Entered ***************
+15:15:47.848 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on Save button ***************
+15:15:49.895 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** verify success Message ***************
+14:01:25.427 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Browser Open***************
+14:01:25.523 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Login into Application***************
+14:01:28.423 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Test Case Execution Started***************
+14:01:36.000 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title Admin/management  Page ***************
+14:01:36.690 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify  text  and click on add button  ***************
+14:01:37.135 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title of Amin title ***************
+14:01:37.306 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify label of Add user ***************
+14:01:37.365 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on User  Role ***************
+14:01:37.558 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** select  Role ***************
+14:01:37.763 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Employee Name entered ***************
+14:01:39.980 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************   Employee Name is Selected  ***************
+14:01:40.059 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Click on Status ***************
+14:01:40.225 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Status  Selected ***************
+14:01:40.481 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** User Name Entered ***************
+14:01:42.775 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Password Entered ***************
+14:01:43.059 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Confirm  Password Entered ***************
+14:01:47.284 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on Save button ***************
+14:03:01.771 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Browser Open***************
+14:03:01.812 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Login into Application***************
+14:03:04.736 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Test Case Execution Started***************
+14:03:07.546 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title Admin/management  Page ***************
+14:03:08.324 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify  text  and click on add button  ***************
+14:03:08.750 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title of Amin title ***************
+14:03:08.831 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify label of Add user ***************
+14:03:08.979 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on User  Role ***************
+14:03:09.287 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** select  Role ***************
+14:03:09.502 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Employee Name entered ***************
+14:03:11.621 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************   Employee Name is Selected  ***************
+14:03:11.678 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Click on Status ***************
+14:03:11.818 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Status  Selected ***************
+14:03:11.989 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** User Name Entered ***************
+14:03:14.332 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Password Entered ***************
+14:03:14.600 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Confirm  Password Entered ***************
+14:03:18.771 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on Save button ***************
+14:04:42.795 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Browser Open***************
+14:04:42.841 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Login into Application***************
+14:04:45.692 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Test Case Execution Started***************
+14:04:48.658 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title Admin/management  Page ***************
+14:04:49.296 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify  text  and click on add button  ***************
+14:04:49.735 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title of Amin title ***************
+14:04:49.829 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify label of Add user ***************
+14:04:49.884 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on User  Role ***************
+14:04:50.081 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** select  Role ***************
+14:04:50.461 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Employee Name entered ***************
+14:04:52.615 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************   Employee Name is Selected  ***************
+14:04:52.662 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Click on Status ***************
+14:04:52.810 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Status  Selected ***************
+14:04:52.980 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** User Name Entered ***************
+14:04:55.271 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Password Entered ***************
+14:04:55.600 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Confirm  Password Entered ***************
+14:04:59.769 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on Save button ***************
+14:07:59.599 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Browser Open***************
+14:07:59.653 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Login into Application***************
+14:08:02.334 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Test Case Execution Started***************
+14:08:05.401 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title Admin/management  Page ***************
+14:08:06.022 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify  text  and click on add button  ***************
+14:08:06.509 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title of Amin title ***************
+14:08:06.662 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify label of Add user ***************
+14:08:06.808 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on User  Role ***************
+14:08:07.119 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** select  Role ***************
+14:08:07.407 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Employee Name entered ***************
+14:08:09.689 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************   Employee Name is Selected  ***************
+14:08:09.908 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Click on Status ***************
+14:08:10.065 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Status  Selected ***************
+14:08:10.398 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** User Name Entered ***************
+14:08:12.763 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Password Entered ***************
+14:08:13.018 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Confirm  Password Entered ***************
+14:08:17.275 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on Save button ***************
+14:08:19.288 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** verify success Message ***************
+14:09:31.713 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Browser Open***************
+14:09:31.754 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Login into Application***************
+14:09:34.562 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Test Case Execution Started***************
+14:09:36.819 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title Admin/management  Page ***************
+14:09:37.577 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify  text  and click on add button  ***************
+14:09:37.958 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title of Amin title ***************
+14:09:38.071 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify label of Add user ***************
+14:09:38.127 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on User  Role ***************
+14:09:38.336 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** select  Role ***************
+14:09:38.628 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Employee Name entered ***************
+14:09:40.793 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************   Employee Name is Selected  ***************
+14:09:40.859 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Click on Status ***************
+14:09:41.015 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Status  Selected ***************
+14:09:41.188 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** User Name Entered ***************
+14:09:43.451 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Password Entered ***************
+14:09:43.661 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Confirm  Password Entered ***************
+14:09:47.901 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on Save button ***************
+14:09:49.914 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** verify success Message ***************
+14:12:46.956 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Browser Open***************
+14:12:46.995 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Login into Application***************
+14:12:49.695 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Test Case Execution Started***************
+14:12:52.748 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title Admin/management  Page ***************
+14:12:53.402 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify  text  and click on add button  ***************
+14:12:53.940 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title of Amin title ***************
+14:12:54.114 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify label of Add user ***************
+14:12:54.189 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on User  Role ***************
+14:12:54.375 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** select  Role ***************
+14:12:54.597 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Employee Name entered ***************
+14:12:56.746 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************   Employee Name is Selected  ***************
+14:12:56.809 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Click on Status ***************
+14:12:56.946 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Status  Selected ***************
+14:12:57.104 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** User Name Entered ***************
+14:12:59.476 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Password Entered ***************
+14:12:59.719 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Confirm  Password Entered ***************
+14:13:03.916 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on Save button ***************
+14:13:05.930 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** verify success Message ***************
+14:13:31.100 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Browser Open***************
+14:13:31.162 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Login into Application***************
+14:13:33.848 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Test Case Execution Started***************
+14:13:36.460 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title Admin/management  Page ***************
+14:13:37.307 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify  text  and click on add button  ***************
+14:13:37.762 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title of Amin title ***************
+14:13:37.839 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify label of Add user ***************
+14:13:37.890 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on User  Role ***************
+14:13:38.235 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** select  Role ***************
+14:13:38.501 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Employee Name entered ***************
+14:13:40.613 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************   Employee Name is Selected  ***************
+14:13:40.672 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Click on Status ***************
+14:13:40.804 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Status  Selected ***************
+14:13:40.958 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** User Name Entered ***************
+14:13:43.190 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Password Entered ***************
+14:13:43.471 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Confirm  Password Entered ***************
+14:13:47.639 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on Save button ***************
+14:13:49.651 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** verify success Message ***************
+14:14:41.736 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Browser Open***************
+14:14:41.797 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Login into Application***************
+14:14:45.110 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Test Case Execution Started***************
+14:14:47.815 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title Admin/management  Page ***************
+14:14:48.550 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify  text  and click on add button  ***************
+14:14:48.953 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title of Amin title ***************
+14:14:49.058 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify label of Add user ***************
+14:14:49.186 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on User  Role ***************
+14:14:49.528 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** select  Role ***************
+14:14:49.731 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Employee Name entered ***************
+14:14:51.921 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************   Employee Name is Selected  ***************
+14:14:51.979 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Click on Status ***************
+14:14:52.128 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Status  Selected ***************
+14:14:52.325 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** User Name Entered ***************
+14:14:54.811 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Password Entered ***************
+14:14:55.096 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Confirm  Password Entered ***************
+14:14:59.254 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on Save button ***************
+14:15:01.269 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** verify success Message ***************
+14:16:49.851 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Browser Open***************
+14:16:49.904 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Login into Application***************
+14:16:52.777 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Test Case Execution Started***************
+14:16:55.828 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title Admin/management  Page ***************
+14:16:56.455 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify  text  and click on add button  ***************
+14:16:56.844 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title of Amin title ***************
+14:16:56.922 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify label of Add user ***************
+14:16:56.996 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on User  Role ***************
+14:16:57.278 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** select  Role ***************
+14:16:57.593 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Employee Name entered ***************
+14:16:59.737 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************   Employee Name is Selected  ***************
+14:16:59.810 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Click on Status ***************
+14:16:59.977 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Status  Selected ***************
+14:17:00.199 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** User Name Entered ***************
+14:17:02.472 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Password Entered ***************
+14:17:02.744 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Confirm  Password Entered ***************
+14:17:06.927 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on Save button ***************
+14:17:08.936 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** verify success Message ***************
+14:22:41.630 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Browser Open***************
+14:22:41.686 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Login into Application***************
+14:22:45.351 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************Test Case Execution Started***************
+14:22:48.724 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title Admin/management  Page ***************
+14:22:49.428 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify  text  and click on add button  ***************
+14:22:50.044 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify Title of Amin title ***************
+14:22:50.141 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Verify label of Add user ***************
+14:22:50.215 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on User  Role ***************
+14:22:50.417 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** select  Role ***************
+14:22:50.610 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Employee Name entered ***************
+14:22:52.883 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - **************   Employee Name is Selected  ***************
+14:22:53.040 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Click on Status ***************
+14:22:53.220 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Status  Selected ***************
+14:22:53.538 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** User Name Entered ***************
+14:22:55.900 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Password Entered ***************
+14:22:56.208 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** Confirm  Password Entered ***************
+14:23:00.453 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** click on Save button ***************
+14:23:02.457 [main] INFO  OpenHRMModule3AdminTest.ValidationOfNewUserCreated - ************** verify success Message ***************
+09:12:44.482 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
+09:12:46.061 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
+09:12:49.510 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
+09:44:45.778 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
+09:44:51.237 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
+09:44:54.247 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
+09:46:52.241 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
+09:46:52.575 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
+09:46:55.615 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
+09:37:22.877 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
+09:37:25.613 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
+09:37:33.902 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
+09:41:57.714 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
+09:41:57.974 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
+09:42:02.413 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
+09:44:14.685 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
+09:44:15.084 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
+09:44:20.384 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************
+09:28:42.857 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Browser Open *********
+09:28:48.664 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution Started *******************
+09:28:54.510 [main] INFO  OpenHRMModule1LoginTest.OpenHRMModule1LoginTest - ******* Test case Execution ended *******************

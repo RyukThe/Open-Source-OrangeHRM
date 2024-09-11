@@ -29,7 +29,7 @@ public class BaseClass
 		op= new ChromeOptions();
 
 		op.addArguments("--remote-allow-origins=*");
-		driver=new  ChromeDriver(op);
+		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(UtilityClass.getPropertyFileData("URL"));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));

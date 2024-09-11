@@ -6,14 +6,33 @@
   </listeners>
   <test thread-count="5" name="OrangeHRMTest(failed)">
     <classes>
-      <class name="OpenHRMModule1LoginTest.OpenHRMModule1LoginTest">
+      <class name="OpenHRMModule3AdminTest.AddUser">
         <methods>
-          <include name="catptureSSoffailedTestCase"/>
           <include name="closeBrowser"/>
           <include name="verificationofloginmodule"/>
+          <include name="loginIntoApp"/>
           <include name="openBroswer"/>
+          <include name="catptureSSoffailedTestCase"/>
         </methods>
-      </class> <!-- OpenHRMModule1LoginTest.OpenHRMModule1LoginTest -->
+      </class> <!-- OpenHRMModule3AdminTest.AddUser -->
+      <class name="OpenHRMModule3AdminTest.AddUserValidateAllErrorMassagesWhenNoDataPasses">
+        <methods>
+          <include name="openBroswer"/>
+          <include name="closeBrowser"/>
+          <include name="loginIntoApp"/>
+          <include name="verifyAllErrorMessageWhenNoDataPassesByUser"/>
+          <include name="catptureSSoffailedTestCase"/>
+        </methods>
+      </class> <!-- OpenHRMModule3AdminTest.AddUserValidateAllErrorMassagesWhenNoDataPasses -->
+      <class name="OpenHRMModule3AdminTest.AddUserModule_Validate_ErrorMessage_InValidData">
+        <methods>
+          <include name="openBroswer"/>
+          <include name="verifyAllErrorMessageWhenNoDataPassesByUser"/>
+          <include name="loginIntoApp"/>
+          <include name="closeBrowser"/>
+          <include name="catptureSSoffailedTestCase"/>
+        </methods>
+      </class> <!-- OpenHRMModule3AdminTest.AddUserModule_Validate_ErrorMessage_InValidData -->
     </classes>
   </test> <!-- OrangeHRMTest(failed) -->
 </suite> <!-- Failed suite [OrangeHRMSuite] -->

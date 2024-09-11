@@ -12,11 +12,11 @@
   
   			  <plugin>
 			       <groupId>org.apache.maven.plugins</groupId>
-			       <artifactId>maven-surefire-plugin</artifactId>
-			       <version>3.0.0-M7</version>
+          			<artifactId>maven-surefire-plugin</artifactId>
+          			<version>3.1.2</version>
 			        <configuration>
 		          	<suiteXmlFiles>
-		          	      		 <suiteXmlFile>testng.xml</suiteXmlFile>
+		          	      		 <suiteXmlFile>AdminTest.xml</suiteXmlFile> <!-- to add single file  -->
 		           </suiteXmlFiles>
 		          
 		          </configuration>
@@ -28,6 +28,7 @@
 		          <artifactId>maven-compiler-plugin</artifactId>
 		          <version>3.10.1</version>
 		      </plugin>
+        
         
       </plugins>
   
@@ -44,7 +45,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.6.0</version>
+			<version>4.11.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
@@ -65,12 +66,14 @@
 			<version>2.20.0</version>
 		</dependency>
 
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.6.1</version>
-  
+    <version>7.8.0</version>
+    <scope>test</scope>
 </dependency>
+
 
 
 

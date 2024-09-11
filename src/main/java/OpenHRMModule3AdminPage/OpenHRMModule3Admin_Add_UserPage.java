@@ -1,12 +1,16 @@
 package OpenHRMModule3AdminPage;
 
+import java.io.IOException;
 import java.util.List;
 
+import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import LibraryFiles.UtilityClass;
 
 public class OpenHRMModule3Admin_Add_UserPage
 {
@@ -26,6 +30,7 @@ public class OpenHRMModule3Admin_Add_UserPage
 	@FindBy(xpath = "//label[text()='Confirm Password']") private WebElement confirmPassLabel;
 	@FindBy(xpath = "(//input[@type='password'])[2]") private WebElement enterconfirmPassword;
 	@FindBy(xpath = "//button[text()=' Save ']") private WebElement saveButton;
+	@FindBy(xpath = "//div[@class='oxd-toast oxd-toast--success oxd-toast-container--toast']") private WebElement successMsg;
 	@FindBy(xpath = "(//span[text()='Required'])[1]") private WebElement ermForUserRole;
 	@FindBy(xpath = "//span[text()='Invalid']") private WebElement ermForEmpName;
 	@FindBy(xpath = "(//span[text()='Required'])[2]") private WebElement ermForStatus;
@@ -148,6 +153,11 @@ public class OpenHRMModule3Admin_Add_UserPage
 		return actResult;
 	}
 	
+	public boolean verifyOpenHRMModule3Admin_Add_UserPageSuccessMsg()
+	{
+		boolean actResult = successMsg.isDisplayed();
+		return actResult;
+	}
 	
 	public void updatedclickonUserRole()
 	{
@@ -190,6 +200,7 @@ public class OpenHRMModule3Admin_Add_UserPage
 			}
 	}
 	}
+	
 	
 		
 		public String verifyErrorMessageOpenHRMModule3Admin_Add_UserPageForUseserRole()
